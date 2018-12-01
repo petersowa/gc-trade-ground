@@ -1,0 +1,35 @@
+{
+  "name": "gc-trade-ground",
+  "version": "0.0.0",
+  "description": "Stock and investment portfolio tracking app.",
+  "main": "src/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/petersowa/gc-trade-ground.git"
+  },
+  "keywords": [],
+  "author": {
+    "name": "Peter Sowa",
+    "email": "dev-tradeground@devspeter.space",
+    "url": "https://home.devspeter.space"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/petersowa/gc-trade-ground/issues"
+  },
+  "homepage": "https://github.com/petersowa/gc-trade-ground#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "connect-flash": "^0.1.1",
+    "connect-mongodb-session": "^2.0.5",
+    "csurf": "^1.9.0",
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "express-session": "^1.15.6",
+    "mongoose": "^5.3.14"
+  }
+}
